@@ -1,0 +1,54 @@
+/*
+ Theme Name:   neve child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  neve child theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     neve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&display=swap");
+
+.nv-page-title {
+  display: none;
+}
+
+.nv-page-title-wrap.nv-big-title {
+  margin-top: 0;
+}
+
+#nf-form-title-1,
+.nf-form-fields-required {
+  display: none;
+}
+
+#header-grid
+  > nav.header--row.header-main
+  > div
+  > div
+  > div
+  > div.hfg-slot.left
+  > div
+  > div
+  > div
+  > a
+  > div
+  > div
+  .site-title {
+  font-family: "Kaushan Script", cursive;
+  font-size: 2.5em;
+}
+
+.home-columns,
+.things-to-do-col {
+  margin: 0 2em;
+}
+
+.parque-paragraph {
+  margin-right: 3em !important;
+}
